@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.home {
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+
+
+
+
+.homeInfo {
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color:burlywood;
+}
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+
+.contactRealtorBtn {
+    background:lightskyblue
+    justify-self: stretch;
+    align-self: stretch;
+    padding: 1.7rem;
+    font-size: 2rem;
+    color: white;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

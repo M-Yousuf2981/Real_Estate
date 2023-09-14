@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+.lm {
+    height: 100vh;
+    width: 100%;
+} */
+
+
+
+.dp {
+    color: goldenrod;
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+ nav ul li {
+    justify-content: space-between;
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+
+
+li {
+    font-size: 26px;
+    color: coral;
+}
+ 
+/* .land {
+    background: url();
+    font-size: 3opx;
+} */
+
+
+
+@media only screen and (max-width: 770px)
+.container {
+    grid-template-rows: calc(100vh - 8rem) min-content min-content min-content 40vw repeat(3, min-content);
+    grid-template-columns: minmax(5rem, 1fr) repeat( 6, minmax(min-content, 20rem) ) minmax(5rem, 1fr);
+    grid-template-areas: ". homes homes homes homes homes homes . " ;
+}
+
+
+@media only screen and (max-width: 900px)
+.container {
+    grid-template-rows: 80vh min-content min-content 40vw repeat(3, min-content);
+    grid-template-columns: minmax(5rem, 1fr) repeat( 6, minmax(min-content, 20rem) ) minmax(5rem, 1fr);
+    grid-template-areas: ". homes homes homes homes homes homes . ";
+}
+
+
+
+.home {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    float: left;
+}
+
+
+.home {
+    width: 50%;
+    height: 100vh;
+}
+
+
+
+
+/* .homeImg {
+    grid-column: 1 / span 2;
+    background: lightcoral;
+    position: relative;
+    margin-bottom: 3.5rem;
+} */
+.imgCommon {
+    width: 100%;
+}
+
+
+/* 
+.homeDetailBtn {
+    background: black;
+    color: white;
+    font-size: 1.8rem;
+    font-family: var(--font-display);
+    width: 80%;
+    padding: 1.5rem 0;
+    position: absolute;
+    bottom: -2rem;
+    left: 10%;
+} */
+
+
+
+
+
+
+
+.homeInfo {
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color:burlywood;
+}
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+
+.contactRealtorBtn {
+    background:lightskyblue;
+    justify-self: stretch;
+    align-self: stretch;
+    padding: 1rem;
+    font-size: 2rem;
+    color: black;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
